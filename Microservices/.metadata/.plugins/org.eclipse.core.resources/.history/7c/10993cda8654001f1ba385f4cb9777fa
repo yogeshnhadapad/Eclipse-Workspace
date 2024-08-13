@@ -1,0 +1,10 @@
+package com.example.kafka.first.project;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MessageConsumer {
+	private Logger log = LoggerFactory.getLogger(MessageConsmer.class);
+
+}

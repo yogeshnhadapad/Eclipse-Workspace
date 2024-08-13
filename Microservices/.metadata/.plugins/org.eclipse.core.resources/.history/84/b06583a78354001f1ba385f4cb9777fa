@@ -1,0 +1,7 @@
+package com.example.kafka.first.project;
+
+public class MessageRepository {
+	
+	privateList<String>list=new ArrayList<>();
+
+}

@@ -1,0 +1,9 @@
+package com.spring.with.cloud.example.SpringCloudconfig;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestingMapping(path="/welcome")
+public class WelcomeController {
+
+}

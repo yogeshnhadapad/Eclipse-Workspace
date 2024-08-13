@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form method="post" action="display">
+<h3>Edurea.com</h3>
+<hr>
+Name:<input type="text" name="val1"><br> <br> User
+Id:<input type="text" name="val2"> <br> <br>
+ <input type="submit" value="Login">
+</form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+package com.Mongo.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.Mongo.demo.model.Book;
+import com.Mongo.demo.service.BookService;
+
+@RestController
+public class BookController {
+	
+	@Autowired
+	private BookService bs;
+	
+	@PostMapping
+	public void addBook(Book book) {
+		
+		bs.addBook(book);
+		
+	}
+	
+
+}

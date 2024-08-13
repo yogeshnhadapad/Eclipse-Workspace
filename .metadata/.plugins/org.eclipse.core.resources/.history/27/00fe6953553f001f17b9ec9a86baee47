@@ -1,0 +1,21 @@
+package HierarchicalTest;
+
+public class ProjectManager {
+
+	public String name;
+	public int NoofProjects;
+	public ProjectManager(String name, int noofProjects) {
+		super();
+		this.name = name;
+		this.NoofProjects = noofProjects;
+	}
+	
+	void dispRateofIntrest() {
+		System.out.println("the rate of intrest is");
+		}
+	
+	void show() {
+		System.out.println(name +"number of projects");
+	}
+	
+}

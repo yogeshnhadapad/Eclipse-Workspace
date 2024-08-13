@@ -1,0 +1,7 @@
+package com.micro.with.jdbc.example.MicroserviceDemo.model;
+
+public class Response {
+	Integer code;
+	String message;
+
+}

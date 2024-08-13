@@ -1,0 +1,16 @@
+package Collection;
+
+import java.util.LinkedHashSet;
+
+public class Main1 {
+	public static void main(String args[]) {
+		LinkedHashSet<Employee> employee = new LinkedHashSet();
+		employee.add(new Employee("yogesh",101,"karnata"));
+		employee.add(new Employee("chetan",102,"Pune"));
+		employee.add(new Employee("sagar",103,"solapur"));
+		
+		Employee emp = new Employee();
+		emp.
+	}
+
+}

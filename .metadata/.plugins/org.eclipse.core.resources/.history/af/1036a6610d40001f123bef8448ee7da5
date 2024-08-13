@@ -1,0 +1,6 @@
+package ExeceptionHandling;
+
+public class InvalidAgeException {
+
+	
+}

@@ -1,0 +1,22 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.stream.Stream;
+
+public class ArrayListClass {
+	
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<>();
+		list.add("raj");
+		list.add("venu");
+		list.add("gaja");
+		list.add("rohan");
+		
+		Stream<String> s = list.stream();
+		Stream<String> s1 = list.parallelStream();
+		
+		int[] arr = {1,2,3,4};
+		
+		}
+
+}

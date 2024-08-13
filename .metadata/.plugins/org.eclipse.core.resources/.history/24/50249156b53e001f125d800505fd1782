@@ -1,0 +1,6 @@
+package AstractionTest;
+
+public abstract class Car {
+
+	
+}

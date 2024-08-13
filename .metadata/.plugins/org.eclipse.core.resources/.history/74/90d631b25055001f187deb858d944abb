@@ -1,0 +1,21 @@
+package com.java.basics;
+
+import org.apache.catalina.filters.ExpiresFilter.XServletOutputStream;
+
+public class CustomExceptionMain {
+	
+	public static void checkNumber(int number) throws CustomException{
+		if(number <0) {
+			throw new CustomException("provided number is negative: " + number);
+		}
+		else {
+		      System.out.println("provided number is positive: " + number);
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.Mongo.demo.model;
+
+public class Book {
+
+}

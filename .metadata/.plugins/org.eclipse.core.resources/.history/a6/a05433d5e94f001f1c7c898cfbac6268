@@ -1,0 +1,39 @@
+package com.Mongo.demo.model;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document(collection="Book")
+public class Book {
+        private int id;
+        private String authorName;
+        private String booName;
+		public Book() {
+			super();
+			// TODO Auto-generated constructor stub
+		}
+		public Book(int id, String authorName, String booName) {
+			super();
+			this.id = id;
+			this.authorName = authorName;
+			this.booName = booName;
+		}
+		public int getId() {
+			return id;
+		}
+		public void setId(int id) {
+			this.id = id;
+		}
+		public String getAuthorName() {
+			return authorName;
+		}
+		public void setAuthorName(String authorName) {
+			this.authorName = authorName;
+		}
+		public String getBooName() {
+			return booName;
+		}
+		public void setBooName(String booName) {
+			this.booName = booName;
+		}
+        
+}

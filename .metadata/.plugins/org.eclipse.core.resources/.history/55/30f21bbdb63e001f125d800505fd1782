@@ -1,0 +1,16 @@
+package AstractionTest;
+
+public abstract class Car {
+
+	public abstract void Accelarate();
+	
+	public abstract void Honk();
+	public  void Wheel() {
+		
+	}
+	
+}
+
+class Honda extends Car{
+	
+}

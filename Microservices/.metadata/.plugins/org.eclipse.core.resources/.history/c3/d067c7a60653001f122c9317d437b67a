@@ -1,0 +1,13 @@
+package com.spring.with.cloud.example.SpringCloudconfig;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringCloudconfigApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringCloudconfigApplication.class, args);
+	}
+
+}

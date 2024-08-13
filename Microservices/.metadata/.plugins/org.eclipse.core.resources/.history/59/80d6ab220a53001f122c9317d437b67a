@@ -1,0 +1,5 @@
+package com.spring.with.cloud.example.SpringCloudconfig;
+
+public class WelcomeController {
+
+}

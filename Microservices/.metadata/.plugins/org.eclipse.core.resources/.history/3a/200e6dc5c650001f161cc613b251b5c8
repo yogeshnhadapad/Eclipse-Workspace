@@ -1,0 +1,2 @@
+spring.application.name=Emloyee.Eureka
+server.port=8082

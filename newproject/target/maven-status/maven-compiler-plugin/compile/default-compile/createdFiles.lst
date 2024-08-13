@@ -1,0 +1,6 @@
+com/org/newproject/App.class
+com/org/spring/repository/MovieRepository.class
+com/org/spring/repository/ActorRepository.class
+com/org/spring/resources/Config.class
+com/org/advice/BeforeAdvice.class
+com/org/spring/App.class

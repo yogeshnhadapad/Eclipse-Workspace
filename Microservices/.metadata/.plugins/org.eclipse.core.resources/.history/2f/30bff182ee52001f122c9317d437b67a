@@ -1,0 +1,9 @@
+package com.micro.with.jdbc.example.MicroserviceDemo.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping(path ="/products")
+public class ProductController {
+
+}

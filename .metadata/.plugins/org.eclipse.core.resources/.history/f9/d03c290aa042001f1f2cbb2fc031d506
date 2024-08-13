@@ -1,0 +1,9 @@
+package Collection;
+
+import java.util.Hashtable;
+
+public class HashTableMain {
+	
+	HashTable<Integer,String> ht = new Hashtable<>();
+
+}

@@ -1,0 +1,13 @@
+package Collection;
+
+public class ArrayListClass {
+	
+	public static void main(String[] args) {
+		ArrayListClass<String> list = new ArrayListClass<>();
+		list.add("raj");
+		list.add("venu");
+		list.add("gaja");
+		list.add("rohan");
+	}
+
+}

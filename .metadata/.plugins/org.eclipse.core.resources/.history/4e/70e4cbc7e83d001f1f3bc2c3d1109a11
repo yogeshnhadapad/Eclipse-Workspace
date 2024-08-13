@@ -1,0 +1,9 @@
+package com.org.twoDArray;
+
+public class productManager {
+
+	Prodct[]products;
+	int productCount;
+	
+	Product
+}

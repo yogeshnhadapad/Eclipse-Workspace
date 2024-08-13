@@ -1,0 +1,5 @@
+package com.example.kafka.first.project;
+
+public class MessageConsumer {
+
+}

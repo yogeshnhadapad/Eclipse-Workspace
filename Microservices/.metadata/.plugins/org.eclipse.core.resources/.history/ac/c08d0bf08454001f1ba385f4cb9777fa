@@ -1,0 +1,9 @@
+package com.example.kafka.first.project;
+
+import org.slf4j.LoggerFactory;
+
+public class MessageProducer {
+	
+	private Logger log = LoggerFactory.getILoggerFactory(MessageProdcer.class);
+
+}
